@@ -54,44 +54,34 @@ Installation
 Backend
 Navigate to the backend directory:
 
-bash
-Copy code
+
 cd backend
 Install dependencies:
 
-bash
-Copy code
 npm install
 Create a .env file in the backend directory and add your MongoDB connection URI:
 
-bash
-Copy code
+
 MONGO_URI=mongodb://localhost:27017/expense-tracker
 Start the backend server:
 
-bash
-Copy code
+
 npm start
 Frontend
 Navigate to the frontend directory:
 
-bash
-Copy code
 cd ../frontend
 Install dependencies:
 
-bash
-Copy code
+
 npm install
 Create a .env file in the frontend directory with the API URL:
 
-bash
-Copy code
+
 REACT_APP_API_URL=http://localhost:5000/api
 Start the frontend development server:
 
-bash
-Copy code
+
 npm start
 Usage
 Open your web browser and navigate to http://localhost:3000 to access the frontend application.
